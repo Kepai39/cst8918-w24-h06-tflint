@@ -10,7 +10,7 @@ import (
 
 // You normally want to run this under a separate "Testing" subscription
 // For lab purposes you will use your assigned subscription under the Cloud Dev/Ops program tenant
-var subscriptionID string = "1765106b-4904-487f-87c5-b34652968fc1"
+var subscriptionID string = "80a95cf9-65b4-4bbe-9645-ce60c00e7572"
 
 func TestAzureLinuxVMCreation(t *testing.T) {
 	terraformOptions := &terraform.Options{

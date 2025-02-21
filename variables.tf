@@ -6,7 +6,7 @@ variable "label_prefix" {
 
 variable "region" {
   type    = string
-  default = "westus3"
+  default = "canadacentral"
   description = "the region resources are on"
 }
 
