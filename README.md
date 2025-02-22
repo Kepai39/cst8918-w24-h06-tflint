@@ -127,6 +127,8 @@ variable "region" {
 
 - Had to add the subscription_id to the provider/feature function as the recent version required it to run.
 
+- the region has been changed to canadacentral.  It workedd last time.
+
 - Below is the succesfull test, Note that running may produce a fail as previously the test did not detect the created VM?, Fix: I just tried the test again and it worked.
 
 ### Screenshot of succesful Test:
