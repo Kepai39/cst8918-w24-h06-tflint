@@ -119,3 +119,15 @@ variable "region" {
    > Don't forget to update the _subscriptionID_ and _labelPrefix_ variables in the test file.
 5. Make a git commit and push your branch to GitHub.
 6. Submit your GitHub repo's URL on Brightspace.
+
+
+
+## Issues I had when conducting Lab but solved + Screenshot test:
+- I had similar issues as last lab where the terratest would hang up due to the provider. Fix: updated the provider to be the latest version and changed the public IP to be static.
+
+- Had to add the subscription_id to the provider/feature function as the recent version required it to run.
+
+- Below is the succesfull test, Note that running may produce a fail as previously the test did not detect the created VM?, Fix: I just tried the test again and it worked.
+
+### Screenshot of succesful Test:
+![Screenshot of successful test](<Screenshot 2025-02-21 at 7.35.42 PM.png>)
