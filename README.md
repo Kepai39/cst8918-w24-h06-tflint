@@ -132,4 +132,4 @@ variable "region" {
 - Below is the succesfull test, Note that running may produce a fail as previously the test did not detect the created VM?, Fix: I just tried the test again and it worked.
 
 ### Screenshot of succesful Test:
-![Screenshot of successful test](<Screenshot 2025-02-21 at 7.35.42 PM.png>)
+![Screenshot of succesful test](<Screenshot 2025-02-21 at 7.45.29 PM.png>)
